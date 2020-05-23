@@ -38,7 +38,7 @@ python manage.py runserver
 
 
 ## Modelo
-un proyecto se forma a partir de una serie de actividades que son desarrolladas por una o mas trabajadores, este programa permite agilizar el calculo de presupuestos por actividad.
+un proyecto se forma a partir de una serie de actividades con un valor asociado, este programa permite agilizar el calculo de presupuestos por proyecto segun actividad.
 
 
 
