@@ -6,6 +6,7 @@ este es un repositorio que facilita el calculo de costos asociados a acciones un
 
 - descargar el repositorio
 - crear el entorno virtual y activar
+- correr migracion y crear super usuario
 - correr el servidor
 
 
@@ -23,6 +24,11 @@ virtualenv venv
 venv/Script/activate
 ´´´
 
+### Correr migracion y crear super usuario
+´´´
+python manage.py migrate
+python manage.py createsueperuser
+´´´
 
 ### Correr el servidor
 ´´´
